@@ -1,0 +1,82 @@
+html {
+	font-size: 62.5%;
+}
+
+body {	
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    align-items: center;
+	display: flex;
+	flex-direction: column;	
+}
+
+input,
+select {
+	outline-color: #55c57a;
+}
+
+button {
+    background-color: #55c57a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 40px;
+    position: relative;
+    text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.2s;	
+}
+
+button:hover {	
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+button:hover::after {	
+    opacity: 0;
+    transform: scaleX(1.4) scaleY(1.6);
+}
+
+button:active,
+button:focus {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	outline: none;
+	transform: translateY(-1px);	
+}
+
+button,
+input,
+#selection,
+#selection option
+{
+	padding: 10px;
+	width: 25rem;
+}
+
+#myAnswer {
+    font-size: 2.5rem;
+    margin: 20px 0;	
+}
+
+#selectionZone,
+#variables {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    justify-content: center;
+    margin: 20px 0;
+	text-align: center;	
+}
+
+
+#selectionZone input,
+#variables input {
+	margin-bottom: 10px;
+}
