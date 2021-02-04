@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div id="selectionZone">
+                <h1>Math Formulas</h1>
+                <label for="selection">Choose a Formula</label>
+                <select name="selection" id="selection">
+                    <option value="" disabled selected>FORMULAS</option>
+                    <option value="" disabled>-- AREAS --</option>
+                    <option value="areaSquare">Area of a Square</option>
+                    <option value="areaRectangle">Area of a Rectangle</option>
+                    <option value="areaTriangle">Area of a Triangle with Height</option>
+                    <option value="areaTriangle2">Area of a Triangle with All 3 Sides</option>
+                    <option value="areaRhombus">Area of a Rhombus</option>
+                    <option value="areaTrapezoid">Area of a Trapezoid</option>
+                    <option value="areaCircle">Area of a Circle</option>
+                    <option value="areaSphere">Surface Area of a Sphere</option>
+                    <option value="areaCube">Surface Area of a Cube</option>
+                    <option value="areaCylinder">Surface Area of a Cylinder</option>
+                    <option value="" disabled>-- VOLUMES --</option>
+                    <option value="volumeCube">Volume of a Cube</option>
+                    <option value="volumeParallelepiped">Volume of a Parallelepiped</option>
+                    <option value="volumeRegularPrism">Volume of a Regular Prism</option>
+                    <option value="volumeCylinder">Volume of a Cylinder</option>
+                    <option value="volumeSphere">Volume of a Sphere</option>
+                    <option value="" disabled>-- EXPONENTS --</option>
+                    <option value="exponent">Exponents</option>
+                    <option value="exponentMultiply">Multiplying Exponents</option>
+                    <option value="exponentDivide">Dividing Exponents</option>
+                    <option value="powerOfPower">Exponent of an Exponent</option>
+                    <option value="" disabled>-- MISC --</option>
+                    <option value="distanceBetweenPoints">Distance Between Points</option>
+                    <option value="midPoint">Midpoint Formula</option>
+                    <option value="pythagorean">Pythagorean Theorem</option>
+                    <option value="quadratic">Quadratic Formula</option>
+                </select>
+                <div id="variables"></div>
+                <h1 id="myAnswer"></h1>                
+            </div>
+        </main>        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js" 
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+        </script>
+        <script src="Formula.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
