@@ -11,6 +11,9 @@ $('#selection').on('change', function() {
     // creates blank variable so we can have fresh HTML each time
     var currentFormula=``;
 
+    // resets the answer section so old answers aren't displayed
+    $('#myAnswer').html(``);
+
     // loops through the formula variable names and creates an input box for each
     for(var i = 0; i < f.formulaSetup().length; i++){
         currentFormula += `<input type='number' id='num${i+1}' name='num${i+1}' placeholder='${f.formulaSetup()[i]}'>`;
