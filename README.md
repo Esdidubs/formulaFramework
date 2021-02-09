@@ -1,4 +1,4 @@
-# Book Analysis
+# Formula.js Framework
 
 [Live Page](https://esdidubs.github.io/formulaFramework/)
 
