@@ -8,3 +8,4 @@ The purpose of this project was to make a JavaScript framework that could be use
 ## Features
 - 23 math formulas accessible using methods
 - 5 methods on the prototype for easy use
+- An example webpage showing how the framework could be used
